@@ -1,0 +1,67 @@
+//if (this->order[i] == ANIM) {
+			//	if (this->mode[i] == GROUP) {//组模式
+			//		if(groupLay == 1)
+			//			glBindVertexArray(this->anim[this->count[0]]->vao);//绑定第一个动画组对象的顶点作为背景
+			//		glActiveTexture(GL_TEXTURE0 + groupLay);
+			//		glBindTexture(GL_TEXTURE_2D, this->anim[this->count[0]]->tex);
+
+			//		if (i + 1 < this->mode.size()) {//检测是否是渲染队列最后一个对象
+			//			if (this->mode[i + 1] != GROUP) {//检测下一个是不是组对象，如果不是说明当前的是最后一个组对象
+			//				glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+			//				this->updateCount(ANIM);
+			//				continue;
+			//			}
+			//			else {//正常组对象渲染
+			//				groupLay++;
+			//				this->updateCount(ANIM);
+			//				continue;
+			//			}
+			//		}
+			//		else {//代表这是整个渲染队列最后一个动画组对象
+			//			glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+			//			this->updateCount(ANIM);
+			//			continue;
+			//		}
+			//	}
+			//	else {//普通模式
+			//		glActiveTexture(0);
+			//		glBindTexture(GL_TEXTURE_2D, this->anim[this->count[0]]->tex);
+			//		glBindVertexArray(this->anim[this->count[0]]->vao);
+			//		this->updateCount(ANIM);
+			//	}
+			//}
+			//else if (this->order[i] == ANIM_STATE) {
+			//	Anim* a = *this->animSta[this->count[1]];
+			//	if (this->mode[i] == GROUP) {
+			//		if (groupLay == 1) {
+			//			Anim* c = *this->animSta[this->count[1]];
+			//			glBindVertexArray(c->vao);
+			//		}
+			//		glActiveTexture(GL_TEXTURE0 + groupLay);
+			//		glBindTexture(GL_TEXTURE_2D, a->tex);
+			//		if (i + 1 < this->mode.size()) {
+			//			if (this->mode[i + 1] != GROUP) {
+			//				glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+			//				this->updateCount(ANIM_STATE);
+			//				continue;
+			//			}
+			//			else {
+			//				groupLay++;
+			//				this->updateCount(ANIM_STATE);
+			//				continue;
+			//			}
+			//		}
+			//		else {
+			//			glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+			//			this->updateCount(ANIM_STATE);
+			//			continue;
+			//		}
+			//	}
+			//	else {
+			//		glActiveTexture(0);
+			//		glBindTexture(GL_TEXTURE_2D, this->anim[this->count[0]]->tex);
+			//		glBindVertexArray(a->vao);
+			//		this->updateCount(ANIM_STATE);
+			//	}
+			//}
+			//glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);

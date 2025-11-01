@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fnaf", "fnaf\fnaf.vcxproj", "{7BD69C9B-1145-41F6-99BD-5889D94ABE96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BD69C9B-1145-41F6-99BD-5889D94ABE96}.Debug|x64.ActiveCfg = Debug|x64
+		{7BD69C9B-1145-41F6-99BD-5889D94ABE96}.Debug|x64.Build.0 = Debug|x64
+		{7BD69C9B-1145-41F6-99BD-5889D94ABE96}.Debug|x86.ActiveCfg = Debug|Win32
+		{7BD69C9B-1145-41F6-99BD-5889D94ABE96}.Debug|x86.Build.0 = Debug|Win32
+		{7BD69C9B-1145-41F6-99BD-5889D94ABE96}.Release|x64.ActiveCfg = Release|x64
+		{7BD69C9B-1145-41F6-99BD-5889D94ABE96}.Release|x64.Build.0 = Release|x64
+		{7BD69C9B-1145-41F6-99BD-5889D94ABE96}.Release|x86.ActiveCfg = Release|Win32
+		{7BD69C9B-1145-41F6-99BD-5889D94ABE96}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9E9C3C3-7272-4990-BC9C-AB562771BCEF}
+	EndGlobalSection
+EndGlobal
